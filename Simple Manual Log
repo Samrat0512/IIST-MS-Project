@@ -1,0 +1,3 @@
+june 7,2022 12:18am
+One crossmatch search has been done with the given agn list and radius as 1.8 arcsecond. 1503 sources have been returned and downloaded. This is sent to another crossmatching python script to keep only those sources which are present in the given agn list (having same names) bearing file name agn_crossmatched.tsv. This is giving us 1499 matches. 
+
