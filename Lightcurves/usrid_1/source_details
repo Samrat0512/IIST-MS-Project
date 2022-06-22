@@ -3,4 +3,5 @@ acis_time = 49435.3 s
 acis_num = 1
 hrc_time = 0s
 hrc_num = 0
+sep = 0.25 arcsec
 
