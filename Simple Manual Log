@@ -1,3 +1,8 @@
 june 7,2022 12:18am
 One crossmatch search has been done with the given agn list and radius as 1.8 arcsecond. 1503 sources have been returned and downloaded. This is sent to another crossmatching python script to keep only those sources which are present in the given agn list (having same names) bearing file name agn_crossmatched.tsv. This is giving us 1499 matches. 
 
+june 18,2022 12:45pm
+ACIS broad band and HRC wide band lightcurve had been downloaded and plotted which couldn't yield satisfactory results. Get to know how to download lightcurves for other bands. Today for the source 2CXO J095753.4+024735 (usrid = 1) soft_band and ultrasoft_band acis lightcurve has been plotted and saved as jpg. From the images it is clear that soft_band is good to study further because again ultrasoft_band is not that convincing. Soft_band is plotted with error bars. 
+
+june 22,2022 11:44am
+All possible lightcurves for usrid_2 to usrid_6 is downloaded. usrid_3,4,5 don't have very good observation time. However usrid_6 has very large value of total observation time and it is observed 5 times by ACIS. but lightcurves are available for only four observations(Guessing).

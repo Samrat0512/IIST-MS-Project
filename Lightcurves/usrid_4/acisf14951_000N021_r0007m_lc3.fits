@@ -1,0 +1,339 @@
+SIMPLE  =                    T / file does conform to FITS standard             BITPIX  =                   16 / number of bits per data pixel                  NAXIS   =                    0 / number of data axes                            EXTEND  =                    T / FITS dataset may contain extensions            COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H HDUNAME = 'PRIMARY '                                                            ORIGIN  = 'ASC     '           / Source of FITS file                            CREATOR = 'glvary - Version CAT4.5' / tool that created this output             CHECKSUM= 'KMc6NKa3KKa3KKa3'   / HDU checksum updated 2019-07-26T01:44:13       DATASUM = '        '           / data unit checksum updated 2017-11-26T18:20:40 DATE    = '2019-07-26T01:43:37' / Date and time of file creation                MJD_OBS =  5.6453421578021E+04 / Modified Julian date of observation            DS_IDENT= 'ADS/Sa.CXO#2CSC/obs/14951' / dataset identifier                      DATE-OBS= '2013-06-10T10:07:04' / Observation start date                        DATE-END= '2013-06-10T12:02:35' / Observation end date                          TIMESYS = 'TT      '           / Time system                                    MJDREF  =  5.0814000000000E+04 / [d] MJD zero point for times                   TIMEZERO=  0.0000000000000E+00 / [s] Clock correction                           TIMEUNIT= 's       '           / Time unit                                      CLOCKAPP=                    T / default                                        TSTART  =  4.8724602434102E+08 / [s] Observation start time (MET)               TSTOP   =  4.8725295590390E+08 / [s] Observation end time (MET)                 MISSION = 'AXAF    '           / Mission                                        TELESCOP= 'CHANDRA '           / Telescope                                      INSTRUME= 'ACIS    '           / Instrument                                     OBS_ID  = '14951   '           / Observation id                                 OBI_NUM =                    0 / Obi number                                     SEQ_NUM = '702760  '           / Sequence number                                END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                   40 / width of table in bytes                        NAXIS2  =                  309 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    5 / number of fields in each row                   EXTNAME = 'LIGHTCURVE'         / name of this binary table extension            HDUNAME = 'LIGHTCURVE'         / ASCDM block name                               ORIGIN  = 'ASC     '           / Source of FITS file                            CREATOR = 'glvary - Version CAT4.5' / tool that created this output             ASCDSVER= 'CAT4.5  '           / Processing system revision                     REVISION=                   21 / Processing version of data                     CHECKSUM= 'CamAFYm6CamACYm3'   / HDU checksum updated 2019-07-26T01:44:13       DATASUM = '2604222328'         / data unit checksum updated 2019-07-26T01:43:37 RAND_SKY=  0.0000000000000E+00                                                  RAND_PI =  1.0000000000000E+00                                                  DATE    = '2019-07-26T01:43:37' / Date and time of file creation                MJD_OBS =  5.6453421578021E+04 / Modified Julian date of observation            DS_IDENT= 'ADS/Sa.CXO#2CSC/obs/14951' / dataset identifier                      DATE-OBS= '2013-06-10T10:07:04' / Observation start date                        DATE-END= '2013-06-10T12:02:35' / Observation end date                          TIMESYS = 'TT      '           / Time system                                    MJDREF  =  5.0814000000000E+04 / [d] MJD zero point for times                   TIMEZERO=  0.0000000000000E+00 / [s] Clock correction                           TIMEUNIT= 's       '           / Time unit                                      BTIMNULL=  4.8485539467387E+08 / Basic Time offset (s)                          BTIMRATE=  2.5625001389541E-01 / Basic Time clock rate (s / VCDUcount)          BTIMDRFT=  5.5490324107506E-19 / Basic Time clock drift (s / VCDUcount^2)       BTIMCORR=  0.0000000000000E+00 / Correction applied to Basic Time rate (s)      TIMEREF = 'LOCAL   '           / Time reference (barycenter/local)              TASSIGN = 'SATELLITE'          / Time assigned by clock                         CLOCKAPP=                    T / default                                        TIERRELA=  1.0000000000000E-09 / default                                        TIERABSO=  5.0000000000000E-05 / default                                        TIMVERSN= 'ASC-FITS-2'         / Timing system definition                       TSTART  =  4.8724602434102E+08 / [s] Observation start time (MET)               TSTOP   =  4.8725295590390E+08 / [s] Observation end time (MET)                 OBS_MODE= 'POINTING'           / Observation mode                               STARTMJF=                72909 / Major frame ctr value at start of data         STARTMNF=                  125 / Start minor frame ctr at start of data         STARTOBT=  0.0000000000000E+00 / On-Board MET close to STARTMJF and STARTMNF    STOPMJF =                73071 / Major frame ctr value at stop of data          STOPMNF =                   36 / Stop minor frame ctr at end of data            TIMEPIXR=  5.0000000000000E-01 / default                                        DATACLAS= 'OBSERVED'           / default                                        RADESYS = 'ICRS    '           / default                                        TIMEDEL =  1.6734304368496E+01 / [s] integration time                           MISSION = 'AXAF    '           / Mission                                        TELESCOP= 'CHANDRA '           / Telescope                                      SIM_X   = -6.8282252473119E-01 / [mm] SIM focus pos                             SIM_Y   =  0.0000000000000E+00 / [mm] SIM orthogonal axis pos                   SIM_Z   = -1.9014258036517E+02 / [mm] SIM translation stage pos                 FOC_LEN =  1.0070000000000E+04 / [mm] HRMA focal length                         INSTRUME= 'ACIS    '           / Instrument                                     GRATING = 'NONE    '           / Grating                                        DETNAM  = 'ACIS-23678'         / Detector                                       RA_PNT  =  1.2628819933510E+02 / [deg] Pointing RA                              DEC_PNT =  1.1924445061100E+01 / [deg] Pointing Dec                             ROLL_PNT=  2.4972827671276E+02 / [deg] Pointing Roll                            RA_TARG =  1.2628625000000E+02 / [deg] Observer's specified target RA           DEC_TARG=  1.1926750000000E+01 / [deg] Observer's specified target Dec          DEFOCUS =  1.4449365687057E-03 / [mm] SIM defocus                               RA_NOM  =  1.2628819933508E+02 / [deg] Nominal RA                               DEC_NOM =  1.1924445061129E+01 / [deg] Nominal Dec                              ROLL_NOM=  2.4972827671276E+02 / [deg] Nominal Roll                             READMODE= 'TIMED   '           / Read mode                                      CTI_CORR=                    T                                                  CTI_APP = 'PPPPPBPBPP'                                                          DATAMODE= 'VFAINT  '           / Data mode                                      FLSHTIME=  0.0000000000000E+00 / [s]                                            CYCLE   = 'P       '           / events from which exps? Prim/Second/Both       OBJECT  = 'SDSS J0825+1155'    / Source name                                    OBS_ID  = '14951   '           / Observation id                                 OBI_NUM =                    0 / Obi number                                     SEQ_NUM = '702760  '           / Sequence number                                ONTIME  =  5.1708000397682E+03 / [s] Sum of GTIs                                LIVETIME=  5.1032397305610E+03 / [s] Livetime                                   EXPOSURE=  5.1032397305610E+03 / [s] Exposure time                              DTCOR   =  9.8693426381071E-01 / Dead time correction                           ASPTYPE = 'KALMAN  '                                                            FP_TEMP =  1.5344601440000E+02 / [K] Focal Plane Temperature                    DY_AVG  =  1.0715971008000E+00 / [mm] Mean DY during observation                DZ_AVG  =  1.0293759995000E+00 / [mm] Mean DZ during observation                DTH_AVG = -4.1263877798000E-03 / [deg] Mean DTHETA during observation           CONTENT = 'LIGHTCURVE'         / OGIP Lightcurve file                           HDUCLASS= 'OGIP    '           / format conforms to OGIP/GSFC standards         HDUCLAS1= 'LIGHTCURVE'         / Extension contains a lightcurve                HDUCLAS2= 'TOTAL   '           / Total counts                                   HDUCLAS3= 'RATE    '           / Spectrum total counts                          HISTNUM =                   31                                                  HISTORY  TOOL  :glvary   2019-07-26T01:43:37                            ASC00001HISTORY  PARM  :infile=/export/migration_test/batch0/lightcurve/14951_00ASC00002HISTORY  CONT  :0/input/acisf14951_000N020_r0007m_regevt3.fits[@/export/ASC00003HISTORY  CONT  :migration_test/batch0/lightcurve/14951_000/output/acisf1ASC00004HISTORY  CONT  :4951_000N021_r0007m_gti3.fits, sky=region(/export/migratASC00005HISTORY  CONT  :ion_test/batch0/lightcurve/14951_000/input/acisfJ0825091ASC00006HISTORY  CONT  :p115528_001N020_r0007_spbreg3.fits)][subspace -time,-ccdASC00007HISTORY  CONT  :_id,-expno]                                             ASC00008HISTORY  PARM  :outfile=/export/migration_test/batch0/lightcurve/14951_0ASC00009HISTORY  CONT  :00/output/acisf14951_000N021_r0007m_prob3.fits          ASC00010HISTORY  PARM  :lcfile=/export/migration_test/batch0/lightcurve/14951_00ASC00011HISTORY  CONT  :0/output/acisf14951_000N021_r0007m_lc3.fits             ASC00012HISTORY  PARM  :effile=/export/migration_test/batch0/lightcurve/14951_00ASC00013HISTORY  CONT  :0/output/acisf14951_000N021_r0007_src_asoldither3.fits[cASC00014HISTORY  CONT  :ols time,dtf=fracarea]                                  ASC00015HISTORY  PARM  :probfile=NONE                                           ASC00016HISTORY  PARM  :frac=1                                                  ASC00017HISTORY  PARM  :seed=1                                                  ASC00018HISTORY  PARM  :mmax=INDEF                                              ASC00019HISTORY  PARM  :mmin=INDEF                                              ASC00020HISTORY  PARM  :nbin=0                                                  ASC00021HISTORY  PARM  :mintime=50                                              ASC00022HISTORY  PARM  :clobber=yes                                             ASC00023HISTORY  PARM  :verbose=0                                               ASC00024FRAC    =  1.0000000000000E+00 / Random subsample fraction                      SEED    =  1.0000000000000E+00 / Seed for random selection of fraction          TELAPSE =  5.1708000397682E+03 / [s] Time range                                 INTEGTIM=  4.9360421591336E+03 / [s] Total integration time                     TOTCTS  =                    1 / Total number of single events                  EVENTS  =                    1 / Number of events on input                      ODDS    = -1.7492373749960E-02 / Odds for variable signal 10Log                 PROB    =  4.8993194131421E-01 / Probability of variable signal                 MMIN    =                    2 / M minimum value                                MMAX    =                  103 / M maximum value                                FRAC3SIG=  1.0000000000000E+00 / Frac of lc within 3 sigma of avg rate          FRAC5SIG=  1.0000000000000E+00 / Frac of lc within 5 sigma of avg rate          VARINDEX=                    0 / Variability index                              PROBFILE= 'NONE    '           / input probability file for bkg                 TTYPE1  = 'Time    '           / label for field                                TFORM1  = '1D      '           / format of field                                TUNIT1  = 's       '                                                            TTYPE2  = 'COUNT_RATE'         / Rate                                           TFORM2  = '1D      '           / format of field                                TUNIT2  = 'count/s '                                                            TTYPE3  = 'COUNT_RATE_ERR'     / Rate Error                                     TFORM3  = '1D      '           / format of field                                TUNIT3  = 'count/s '                                                            TTYPE4  = 'Minus_3Sig'         / Expectation value minus 3 times sigma          TFORM4  = '1D      '           / format of field                                TUNIT4  = 'count/s '                                                            TTYPE5  = 'Plus_3Sig'          / Expectation value plus 3 times sigma           TFORM5  = '1D      '           / format of field                                TUNIT5  = 'count/s '                                                            BACKSCAL=  6.7747668528236E-07 / Ratio of area to field                         APERTURE=  1.1005364898268E+01 / [arcsec**2] Aperture size                      APERUNIT= 'arcsec**2'          / Aperture units                                 REGIONID= '0007    '           / Region id                                      STACK_ID= 'acisfJ0825091p115528_001' / Stack id                                 BAND    = 'medium  '           / Energy band                                    HISTORY  TOOL  :dmappend   2019-07-26T01:43:38                          ASC00025HISTORY  PARM  :infile=/export/migration_test/batch0/lightcurve/14951_00ASC00026HISTORY  CONT  :0/output/acisf14951_000N021_r0007m_lc3.fits.bkg[LIGHTCURASC00027HISTORY  CONT  :VE][BKGLIGHTCURVE]                                      ASC00028HISTORY  PARM  :outfile=/export/migration_test/batch0/lightcurve/14951_0ASC00029HISTORY  CONT  :00/output/acisf14951_000N021_r0007m_lc3.fits            ASC00030HISTORY  PARM  :verbose=0                                               ASC00031KS_PROB = -1.0000000000000E+00 / Kolmogoroff-Smirnov statistic - 2 sided test   KP_PROB = -1.0000000000000E+00 / Kuiper variant of the Kolmogoroff-Smirnov statiEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             AΩ
+Ãq(~p?+b€nÃ8?)ÙπYüˆø9=®O	Â~?JPAﬁÍ˛[AΩ
+ÃÅ‰yœ?+b€nÃ8?)ÙπYüˆø9=®O	Â~?JPAﬁÍ˛[AΩ
+Ãí†u-?+b€nÃ8?)ÙπYüˆø9=®O	Â~?JPAﬁÍ˛[AΩ
+Ã£\på?+†ÃÔ5=∂?*2ZıBø9z£’â?Jç∏ # AΩ
+Ã¥kÍ?,B’Ωk’ÿ?*—ˇìÖı ø:î~ìƒ?K.5ˇmNAΩ
+Ãƒ‘gH?,Ø?dÿ–v?+<∏ÕæZ`ø:ÉuÇ1U?KôZsÑ˜ÊAΩ
+Ã’êbß?-v}›{‹?+ßÅ°âeRø:Ìá3_Z?L~ÿûjıAΩ
+ÃÊL^?-6LçD	™?+¬∑˜ø;·UqÌÀ?LÒZ˚∫AΩ
+Ã˜Yd?,ı&?+Å∂0X∑Tø:»:¸ˇÚ?Kﬁä+ìAΩ
+ÕƒT¬?,^dÓÏfÓ?*Ì!——Y´ø:4ÄCC”	?KIrô¸AΩ
+ÕÄP!?+øê`3Q°?*Pê9 /tø9ô%fû^?J¨PBÃ˜ˇAΩ
+Õ)<K?+c‘fÔx∑?)ˆZ xæRø9?úÕ=a ?JQ∏ölÏAΩ
+Õ9¯Fﬁ?+m…¿5;
+?)€…ÏüˇBø9 ’a_?J@I·ÖN4AΩ
+ÕJ¥B<?+ä™J¶yz?)””nU0ø8¯gt“C?JAàﬂº^BAΩ
+Õ[p=õ?+õWS"(?)“ãÑ!áø8Ìa'¥Ú∂?JD\=k∏ÔAΩ
+Õl,8˘?+ÈL¬§\Â?)Ë(4“ø8Áï»˚¯J?JhqE–*óAΩ
+Õ|Ë4W?,>,=‰˛?*<
+a˘—ø8Ë√Ò
+Ñ;?Jìx¥úAΩ
+Õç§/∂?,≤ÜmÑñ¢?*/?˚â-‰ø8Ìú¬ãyÖ?J–òAΩ
+Õû`+?-FˆV"?*eÁZ´dzø8ı—˙Îß?KÚÅÉ†‰AΩ
+ÕØ&s?.râ‘ ‰¨?*ŸSë≠Ñ∏ø9∏pÉ‘æ?Kø°"B\µAΩ
+Õøÿ!—?/˛Ê\sA>?+vâÊ∞Ÿ≈ø92[´œ¶	?Lò°!s§AΩ
+Õ–î0?1 Âõ1 »?,YÏ†L\•ø9e˝UAj0?M”‰E—’‡AΩ
+Õ·Pé?24S_⁄?-2ª™q2"ø9ó∆gJæZ?O 6LlAΩ
+ÕÚÌ?2q4ﬁ“\Ë?-b”±¡øòø9£´–B|?OBπ4∫~&AΩ
+Œ»K?1^"<{:?,äú¶ÀÉHø9qœ◊Ù…≤?N6‡AΩ
+ŒÑ
+™?0K†õøÜ2?+∞≤¯zi2ø9=kÿ¯ö?LÍVà;ëˇAΩ
+Œ$@?.ê“Ã¡Ë?*Ê%µ¥bø9œ*.î?K––˚wè>AΩ
+Œ4¸f?-Ä…n˜‚?*|X\Ê]bø8˙”ﬁ#?K=t°jäÇAΩ
+ŒE∑¸≈?,Æ©ÿﬂH?*.RÆ“3„ø8Ó'ÑŒﬁ0?JŒhC”ﬁºAΩ
+ŒVs¯#?,“]N4?)˜BP§Kø8Âzu¸OV?JÄ&=,Œ≈AΩ
+Œg/ÛÇ?+ﬂgO>?)‡˜D0Úø8·øZ Å‰?J`ì97ﬂ˙AΩ
+ŒwÎÓ‡?+ä$!Êñ#?)≈ˇÁôôvø8„Ì s?J7ˆ,ÿ°AΩ
+ŒàßÍ??+pw~ ≈Œ?)æ⁄	
+°-ø8ÊNèé›?J+AfH*VAΩ
+ŒôcÂù?+A|å–î◊?)µ	ò∆@ø8Ó–¡∂?J&U»’GAΩ
+Œ™‡¸?*¸iì°>?)©‹µœ∏€ø9 ñÜmƒ©?I˛ÕÄ≤ÙAΩ
+Œ∫€‹Z?+|JÌ:?)æÑäÀ÷ø9´- w?JBzö€ÿAΩ
+ŒÀó◊∏?+)r9¡?)Ë.ñÜø9GÄ„ΩDË?J8K™Á?TAΩ
+Œ‹S”?+à$dj?*Eó∫ˇ‰‘ø9§QèÕÃ	?Jñ:–òÒ:AΩ
+ŒÌŒu?+Ï“∑ŒΩQ?*®‰Í!($ø:ÓJ]é?J˘‡]åçoAΩ
+Œ˝À…‘?,mMFçÆ?+NC–Ñ¸4ø:æ€í$3w?Kï˜Ôµ`íAΩ
+œá≈2?,œf˘=K?+ØC#™@ø;1!±‡∫?K˜L\èAΩ
+œC¿ë?,≠”ÜÙ9‰?+¢¬ßg¿ø;;`Ä˛Æ?KÂs∫úIAΩ
+œ/ˇªÔ?,9≈©ì.b?+/ï∂Ñ∂êø:™}º˝zß?Kr!≥HTÑAΩ
+œ@ª∑N?+•ïÚÏÊ2?*ù{~˜™Âø:nD˝??JﬂÇÙ˘∏AΩ
+œQw≤¨?*‡KiÑ ?*ÿÁ˚˝µø9òüÃE:+?J<uu◊_zAΩ
+œb3Æ?*à†Ë48?)Øl∞÷ø9BÔ!Ô$?IÂ«ëÉëÆAΩ
+œrÔ©i?*X+k∂?)ÌØŸ∫ﬂø9’Ú7‚s?Iµ˘é™ßAΩ
+œÉ´§«?*EkËA0ô?)mù@}Nøø9µÏõ]“?I£êÍnG5AΩ
+œîg†&?*2]äå<?)['|ø8Ôff¥Ù†?Iê·¯`¿nAΩ
+œ•#õÑ?*(Ω{œ„?)Q√	œaø8ÊF ÁO ?IáÅç1èÇAΩ
+œµﬂñ„?*$ ß≤Î?)MI∫‹ø8·›-©"∆?IÇ˛ÍÆÁAΩ
+œ∆õíA?*úæ“/?)@’›"˜_ø8‡rΩU	ˆ?Iqm	ÓAΩ
+œ◊Wç†?*úæ“/?)@’›"˜_ø8‡rΩU	ˆ?Iqm	ÓAΩ
+œËà˛?*K	ﬂ„Í?)@áry‰ø8‡%ßxƒ·?Ip∏X¨TfAΩ
+œ¯œÑ]?* ÃP^?)@≤J‰Rø8ﬂÆ~H'u?Ip=LLB¬AΩ
+–	ãª?*ìÏƒ∑?)@œÃ˜Sø8‡lûQr ?Iq EäπÏAΩ
+–G{?*&>¥?)CF‚‘Âsø8‚◊P V“?Is~¨/,√AΩ
+–+vx?*i?¬∏}?)FmXY‘xø8ÂÔd•bv?Iv¨R4yAΩ
+–;øq÷?*œt£¶Ú?)J¥_≠⁄ø8Í&VΩ±O?Iz˙Â∞¨ AΩ
+–L{m5?*>}»A?)RÿÚ~∞∂ø8Ú&-3$?IÉ2U$vòAΩ
+–]7hì?*#∞ïIVå?)aÂ√ù^ø9 Z∆ﬁF?IíXxiAΩ
+–mÛcÚ?*+ıNmò?)i.|§
+ø99@N ƒ?Iô©Œú.AΩ
+–~Ø_P?*EYQ»Á?)óÏ⁄€n ø9A6üe?I√G¯ñïzAΩ
+–èkZØ?*öÕPJ?)Ïıùêø9îµ„CÑ3?J¡~…«æAΩ
+–†'V?+Øï' À?*d∞‘Å∂ø:÷>™›*?JêBÈÈS˚AΩ
+–∞„Ql?+¶oY[Xû?*Û“º+2êø:öÑmìâ?K y„w<AΩ
+–¡üL ?,!=pê√ ?+lÛ≥VITø;Œ‘π~?Kö"§ÁøAΩ
+–“[H(?,*ä‘ƒŸ?+v Ë´˛Kø;ÎÚüêÌ?K£;c≤4˙AΩ
+–„Cá?+ﬂ„4&!?+,pàﬂ"¸ø:“∑3;£?KYM3∞‚ÇAΩ
+–Û”>Â?+8xõÛä ?*ánÆ2¡»ø:.È∑R]G?J≥±)¢ÙAΩ
+—è:D?*™+ÿ⁄‘?)˚<Q,v„ø9£ƒçUHI?J&¯30AΩ
+—K5¢?*QªtZùæ?)§OJ_iœø9Mô5aœ◊?Iœ™Tﬁ6 AΩ
+—&1?* ˘ªf?)s}ÉóÅ¢ø93»ÖæA?Iû¢a cTAΩ
+—6√,_?*J≥%ÕÍ?)\H„AY‡ø9G˚O€?IáIW:v‚AΩ
+—G'æ?)¯kMÇ¶\?)L€h®∞Bø8˜v;µ6?Iwøaﬂ-…AΩ
+—X;#?)ÏÖ‚kﬁé?)AMaü¢°ø8Î±!9Ñ´?IlÅ“±úAΩ
+—h˜{?)ÎÒîx?)@ª≥êÿ~ø8Î!
+è< ?Ikâ¶ºAΩ
+—y≥Ÿ?)√aìj˛?)/.˚Òø8‰¯B∞5i?IT,•!–4AΩ
+—äo7?)√aìj˛?)/.˚Òø8‰¯B∞5i?IT,•!–4AΩ
+—õ+ñ?)√aìj˛?)/.˚Òø8‰¯B∞5i?IT,•!–4AΩ
+—´ÁÙ?)√÷-∏ó?).Ã÷… ‹ø8‰´W‘˛?IS›ñ¢FÀAΩ
+—º£S?)øà/˜Â¨?)+nûü]»ø8·a’Û÷?IPuı¡AΩ
+—Õ_±?)øx≤\ ˙?)+`ïùVø8·S¡2É?IPf9«hæAΩ
+—ﬁ˛?)øx≤\ ˙?)+`ïùVø8·S¡2É?IPf9«hæAΩ
+—Ó÷˘n?)øÄuTKÏ?)+gË:àø8·[¢±÷?IPn¥~·AΩ
+—ˇíÙÕ?)øÄuTKÏ?)+gË:àø8·[¢±÷?IPn¥~·AΩ
+“N+?)¡dtïH?)-3˙ä\ø8„_lÊ?IR?i¡ÕAΩ
+“!
+Îä?)¡©Oû…f?)-uSV2ø8„[TÕúô?IRÇR63 AΩ
+“1∆ÊË?)≈ıøŒ^?)1Äa≠Aø8ÁF	£˙]?IVùç±‰^AΩ
+“BÇ‚F?)≈ıøŒ^?)1Äa≠Aø8ÁF	£˙]?IVùç±‰^AΩ
+“S>›•?)…È^üRï?)5OQ4mø8ÎJ~rZ?IZu‘é‚wAΩ
+“c˙Ÿ?)Õx'?∏?)8∑†”ï ø8ÓW]ùÉ¶?I]Á¬nù›AΩ
+“t∂‘b?)”}≥SD?)>πÖÉdø8Û£Wnõt?IcTÍê˜\AΩ
+“Örœ¿?)ﬂ⁄Ω8?Ö?)Jç·pëø8ˇÁsåüò?Io·boéAΩ
+“ñ.À?)Û	9‘Ê?)]?È=ñø9Y&¿ÒÌ?IÇ≤˝cjAΩ
+“¶Í∆}?*$ëD1 ?){©æiø90kQ˙Ïé?I°GÒüé◊AΩ
+“∑¶¡‹?*L&ÁÚ R?)¥≥ﬁi≤ø9h˙Y•äÎ?I⁄ê†À≈ûAΩ
+“»bΩ:?*∑jhoÈb?*Hé‡¢6ø9—∑¢˛ü?JDëDt AΩ
+“Ÿ∏ô?+HéLq(ë?*≠F
+·Fø:_°Í†?J‘EAΩ
+“È⁄≥˜?+–@rÜ	†?+3!ﬂèfø:‰ë`RH?KZhÈI-ÙAΩ
+“˙ñØU?,iÔl?+gïﬂ˝çÆø;´◊Ù‹Œ?Kè
+‰ÊAΩ
+”R™¥?+ÿnˇ„ä?+:“ƒû	6ø:Ï:om?KbÔ6 AΩ
+”¶?+fnpöö∏?* Ö+Ï’vø:|êâïÚ‘?JÒ}F∆AΩ
+”, °q?*p-∑·Z?)ÓsÓf;9ø9≠ßŒΩh)?JŸ˛:§¬AΩ
+”=Üúœ?*6°IÆ?)µ¥⁄ø9u=}âƒq?I’ÔK‘áAΩ
+”NBò.?)˜_N“…ﬁ?)wÎàg•ø97ê9„6â?Iówƒ[ 4AΩ
+”^˛ìå?)÷ËØìlJ?)W∏ó∞|ø9 ãø?IwÑù©8(AΩ
+”o∫éÎ?)¬¥ª8`?)DÔÃvø9ø	
+ÇÆ?Icπ‚!qYAΩ
+”ÄväI?)ªÅ‹ıf>?)=˝÷ø8˝·•˝?I\±¿˚∫AΩ
+”ë2Öß?)µÄ◊˜óõ?)7EqFø8¯'ΩÌÚ∂?IV‘JÚ≈)AΩ
+”°ÓÅ?)∞ ?ö.?)2cÊàø8ÛØsåµ?IQî<ŸìrAΩ
+”≤™|d?)≠gå˜0?)/rn%»ø8wﬁº§?INÔµŸ¢ZAΩ
+”√fw√?)´ÃN[∫É?)-Ë3Q∂nø8Óˆ%Ã¥b?IMa:7sAΩ
+”‘"s!?)´ÃN[∫É?)-Ë3Q∂nø8Óˆ%Ã¥b?IMa:7sAΩ
+”‰ﬁnÄ?)¨ân“é?).û\?rºø8Ô®“ˆ)S?IN ‰pAΩ
+”ıöiﬁ?)¨ân“é?).û\?rºø8Ô®“ˆ)S?IN ‰pAΩ
+‘Ve=?)ØÍ¬|?)1›B•Ãø8Ú÷◊Œ:•?IQ`wH[`AΩ
+‘`õ?)≤Ïw¥V?)4∆ÒáF~ø8ı¥.p‡?ITPSy¥AΩ
+‘'Œ[˙?)∏VàXN‡?)9ˇ∫„A†ø8˙‘T(ª ?IYïn@ÑAΩ
+‘8äWX?)øËöXÌ?)AXËÑìûø9öfÊ?I`¸‘˘©˘AΩ
+‘IFR∂?)Œ….ègÇ?)O €z%¥ø9K±ÔÑÕ?Ioäp?v(AΩ
+‘ZN?)ËåI˛‰(?)hÒú\¿ø9)$Eô?IàÿGåæöAΩ
+‘jæIs?*Íõ¶5‘?)òj™xΩ"ø9X*±‚  ?I∏ä¶ƒOAΩ
+‘{zD“?*F.c@iˆ?)≈%¢Û¨ø9ÑãÜ‘8á?IÂ\ı
+Q>AΩ
+‘å6@0?*¯xADkT?*tèÔ…ø:2õ«≤~?Jïä(éÈAΩ
+‘úÚ;è?+ÖÜx- ?*ˇ•⁄‡¬ø:ºµåOà??K!([AΩ
+‘≠Æ6Ì?+ˆ_‹˙Ç?+nÙDÛ$ø;+>3fou?Kêœ¥4¸AΩ
+‘æj2L?+Ò•∫˘¿?+jK8y|ø;&ù§X3Z?Kå!Ø®úçAΩ
+‘œ&-™?+Éx™±Ë?*˝èX¬≠óø:∫öØÀÓ?K	≠>DkAΩ
+‘ﬂ‚)	?*ÓÅê7Z?*jæ–Eå*ø:(›pf∂ì?JãØÄ4ˆˆAΩ
+‘û$g?*gÖó"?)Â»∞`Bø9§ÍÜ`Ö”?J7ƒ˚ÕzAΩ
+’Z≈?*t9ﬁ>l?)íËT∏ø9QÒ@y_ﬁ?I≤2Ω+œ%AΩ
+’$?)◊’Ti∞∫?)XÀñµ«6ø9F∑€“s?Ixé"¡ñAΩ
+’"“Ç?)Õ>/3Íx?)Ng5ƒƒÄø9˚π1Ñ?InÙ ç˛AΩ
+’3é·?)æ?ﬁ?)?÷L⁄Ø‘ø9 °ÈY:?I_p~õÑ°AΩ
+’DJ??)µmX9µà?)7Pe„√–ø8¯AÏ∏ Ù?IV◊¢y@>AΩ
+’Uû?)Øz	®Ôÿ?)1éùÚ]¶ø8ÚòËå?IQ	x‡2AΩ
+’e¬¸?)™_ô´±ñ?),®∏|%ø8ÌÕG‰^«?ILp».AΩ
+’v}ˇ[?)™_ô´±ñ?),®∏|%ø8ÌÕG‰^«?ILp».AΩ
+’á9˙π?)ßE5?))oSÆûÈø8Í¶Z˘”‹?IH”–	pAΩ
+’óıˆ?)•MÜ+¿/?)'ÕüÒLNø8È¨‘\?IG-ôÈFAΩ
+’®±Òv?)•MÜ+¿/?)'ÕüÒLNø8È¨‘\?IG-ôÈFAΩ
+’πmÏ‘?)•  –j?)'†ÓqDø8Ë·’A±?IFˇò{	AΩ
+’ )Ë3?)•,ÿO´?)'≠e∑tø8ËÌö¨kX?IG€¬]ÇAΩ
+’⁄Â„ë?)•<`ÜÏˆ?)'ºb~·Xø8Ë¸cz€â?IGb ‰@AΩ
+’Î°ﬁ?)¶Å—P1ê?)(8Ä|Rø8Í'l°¥?IHTû¥i¢AΩ
+’¸]⁄N?)®„˛‡0?)+3ª\¶ø8Ï\ä¥‡?IJüêƒ àAΩ
+÷’≠?)´U¨∞Å?)-äyo∆Tø8Ó§‡ Q>?IL˝FÄﬂAΩ
+÷’—?)Ø≥‘¡Ã?)1ºô¨NDø8Ú¿¸ÅÄ?IQ:hAÎ&AΩ
+÷.ëÃj?)≥
+nä]*?)4ˆ8‡éø8ıÎÙê"??IT{1ç?¥AΩ
+÷?M«»?)∂ø∂√æÒ?)8êÅπ‹ø8˘xA‡∑R?IX¸R;!AΩ
+÷P	√&?)∑‘Œ≈ÿv?)9û∫√∆\ø8˙É∞¬ΩO?IY,?ƒJ‚AΩ
+÷`≈æÖ?)∑◊≥n?)9†˘·$ø8˙ÖÍèö>?IY.Å°ÑóAΩ
+÷qÅπ„?)∑◊≥n?)9†˘·$ø8˙ÖÍèö>?IY.Å°ÑóAΩ
+÷Ç=µB?*Ì£Êô?)´üÏ∆÷ƒø9u˘6ıû?I∆sZé«WAΩ
+÷í˘∞†?*Ì£Êô?)´üÏ∆÷ƒø9u˘6ıû?I∆sZé«WAΩ
+÷£µ´ˇ?*S~˜Ô'”?)ÁÖ ∂‡ø9±àº@?JÉ~ÑÚ
+AΩ
+÷¥qß]?*¿T¿äÍœ?*R∞+YÖ ø:›‡¿“?JnP•ﬁtAΩ
+÷≈-¢º?+ÅÅº∏Ê?+G∑ô3¨ø:Ÿ+q?K-Vb˙AΩ
+÷’Èû?+ÚÇ·<ÿ?+Ä¿ÏfS¨ø;G‡U(ﬂ?Kù18˜AΩ
+÷Ê•ôy?+˛»µqñ?+åﬁ%j˝uø;SÈ,E√e?K©X°˝ö~AΩ
+÷˜aî◊?+ûˆ¬è¨í?+.OÒxU‡ø:ı¸àÏ™á?KJy•æ+åAΩ
+◊ê5?*¯D( * ?*â‹c°Vø:R®Åaâ?J•vT¿ŸÚAΩ
+◊Ÿãî?*}iyü><?*◊´R»ø9⁄éƒ+Ä?J+¸Â_%AΩ
+◊)ïÜÚ?* [!»?)™.éÉô^ø9tΩEó’(?IƒÁ2˘{xAΩ
+◊:QÇQ?)Â!¶CÜ5?){#õ®ø9F#≥∆’‚?Iï¢≠.AΩ
+◊K}Ø?)»®√¡Æ?)_VÕoUÓø9*≠“F)‚?Iy´KÎÛAΩ
+◊[…y?)√ˇ¿b¥?)ZÊÊR√˙ø9&Zyotû?Iu-ƒk©AΩ
+◊lÖtl?)∆¸œê|Î?)]ÎD8Ùø9)b5¯?Ix/ÇWIÚAΩ
+◊}AoÀ?)√a~:ë?)Zä±>Ÿø9&J–®L?It¿duÒnAΩ
+◊ç˝k)?)∫≈î∞Hÿ?)R,7≈ü@ø9ﬂâPJt?IlRè I¶AΩ
+◊ûπfá?)≤ZÖA
+Ÿ?)I‹≤.ÅLø9ù»•<Ü?Ic¸&Û#ØAΩ
+◊ØuaÊ?)ß'(Ÿ»˙?)>‡*ˇ0"ø9
+º¨„∑?IXÒÍu÷XAΩ
+◊¿1]D?)†≤Û|?)7ﬁ)suø9 ºS	Ú?IQÁ‡˛∑AΩ
+◊–ÌX£?)ú¨‘ƒ"?)4ñ¨]ºùø9 ãò*âﬁ?INú6wU˝AΩ
+◊·©T?)ù"˚÷tÜ?)5Ôbïfø9 Òi(•’?IO
+2ç.AΩ
+◊ÚeO`?)úórÚˇt?)4yE Ω)ø9 j.ú?INÄ–}MºAΩ
+ÿ!Jæ?)°E/bb«?)8Ì‰s…ø9¬>¸}Ñ?IS∑/p&AΩ
+ÿ›F?)ß%Ÿü|»?)>ù≠Oü6ø9
+Yó'∞l?IXø∏cñöAΩ
+ÿ$ôA{?)±5z•¢¯?)H[eD#”ø9ÓZìd@?IbëÍúÉúAΩ
+ÿ5U<⁄?)ø§ÊA4:?)VlØ†àø9!–îO~Ø?Ip∫ΩHYtAΩ
+ÿF88?)Ÿºo€?)o˙S:Oø9;˜rÈÔ?Iäj≥Cb~AΩ
+ÿVÕ3ñ?*≠¬àÔ»?)û
+ƒU!Cø9hπE;: ?I∏≥É‚‰AΩ
+ÿgâ.ı?*lÛçóÖ^?* ©ÉÚÎaø9 Ñ ûc?Jº\‡AΩ
+ÿxE*S?*‰’¬3Öt?*v»TÃh∞ø:?¡û⁄N?JíK∞&/·AΩ
+ÿâ%≤?+≠πd˙”#?+<ŒEı≠Kø;X∂s^?KY	∂ˆ¡AΩ
+ÿôΩ!?+Â\ A˘?+s _Üø;;~aLé?Kê.œQ¢ÕAΩ
+ÿ™yo?+‹c8Q√?+jÔÙ«=„ø;26S˚R?KáL≈©ﬂ+AΩ
+ÿª5Õ?+qåe,‚?+ç+8ßø:…çw∏æâ?KåÓdu∂AΩ
+ÿÀÒ,?*◊à&≤_y?*i∑TDQ-ø:2ŒÎJ?JÖ+àﬂ‘¿AΩ
+ÿ‹≠ä?*Rköˆ∆@?)Êú6Çø9∞¥Éï5§?JêE˝ÚAΩ
+ÿÌi	È?)ˇ$õÙ?)îï‡)p\ø9_^>.Zê?IØ1±&˚BAΩ
+ÿ˛%G?)œGé<´?)eª⁄a_.ø90ˆF n?IÄ§,ñçAΩ
+Ÿ· •?)µŸªƒ‡•?)M’õ√òø9≠‚á5?IgCœ&
+€AΩ
+Ÿú¸?)¨I
+©Æ?)C∫w?Úø9s-Uàﬁ?I]ﬁˇõ}AΩ
+Ÿ0X˜b?)¢∞$˘Nƒ?):t®ˇs√ø9VÎÜB?ITÉá˝ÍÉAΩ
+ŸAÚ¡?)û§˚/≈∞?)6âmÔÛø9{+ç?IPê^ebAΩ
+ŸQ–Ó?)ô‚∑ú3ø?)1ıã†Ëø8˝˛ÙﬁW|?IK÷=EûAΩ
+ŸbåÈ~?)óGûR?)/D&±Lø8˚[:Êø?II8ÆÏÄAΩ
+ŸsH‰‹?)ïyu›Zæ?)-πÉYí”ø8˘ŸäÆ›?IG©˙ÑŒAΩ
+ŸÑ‡;?)ìàsËÀÜ?)+„d¨ÿø8¯‹)Å?IEÃ®ÙÑAΩ
+Ÿî¿€ô?)ë[;ï?^?))–;¯3ø8ˆ
+âèTù?IC≤‚íI˛AΩ
+Ÿ•|÷˜?)ê—õiô`?))Lπ5`ø8ıâWa`?IC-yeN`AΩ
+Ÿ∂8“V?)ê—õiô`?))Lπ5`ø8ıâWa`?IC-yeN`AΩ
+Ÿ∆ÙÕ¥?)ê—õiô`?))Lπ5`ø8ıâWa`?IC-yeN`AΩ
+Ÿ◊∞…?)ê—õiô`?))Lπ5`ø8ıâWa`?IC-yeN`AΩ
+ŸËlƒq?)ï≠H‘-&?)-⁄4≈·Õø8˘™æº!?IGŒ˘…t§AΩ
+Ÿ˘(ø–?)ï≠H‘-&?)-⁄4≈·Ãø8˘™æº?IGŒ˘…t¢AΩ
+⁄	‰ª.?)ï≠H‘-&?)-⁄4≈·Ãø8˘™æº?IGŒ˘…t¢AΩ
+⁄†∂ç?)ó,x^œÊ?)/M√Èõø8˚^iØ ü?IIEqËBAΩ
+⁄+\±Î?)ú±∏B—Í?)4†Óöø9 óMƒ~?IN§É® AΩ
+⁄<≠J?)§IN_àF?);Ì C˛ø9¿A °Ÿ?IV«∞AΩ
+⁄L‘®®?)Ø™xe>?)F[¢Ó &ø9ü(Õô?I`à§–ôlAΩ
+⁄]ê§?)ºJ ˛Îî?)SDŒ>Í ø9¬$ﬁÍf?ImÜ"ÓÍ˝AΩ
+⁄nLüe?)‘…n?)k+Wg~ø96\wú?IÖí«éY∫AΩ
+⁄ö√?*iŸÔ≈ ?)ù÷’–'⁄ø9hçS¿YH?I∏{ñÿ$AΩ
+⁄èƒñ"?*f»(™ :?)˙ò†ÕZø9ƒÄ€◊NÎ?J§ÇAíAΩ
+⁄†ÄëÄ?*ÊqC⁄Î?*x'õ6-ø:AÇ∆„Œ?Jìùz_]AΩ
+⁄±<åﬂ?+}:=.¸K?+-ÌOœø:’'≈`8v?K)1GöaAΩ
+⁄¡¯à=?+œ©òmDp?+^}x€q÷ø;%Áiàà?Kz»ÄøÊ|AΩ
+⁄“¥Éú?+≈’¨`{
+?+T¬%5‰Dø;8a†ò·?Kq âˆAΩ
+⁄„p~˙?+O@`?*ﬂ¶2ë+‚ø:ß˜+©∏\?J˚}∂Â¶AΩ
+⁄Ù,zY?*®ø6ü®Ñ?*;µÀ8,óø:1Ñn†?JV¯&íAΩ
+€Ëu∑?*AIçﬂÃ<?)’À%Çø9†¿«¢&?I™ßS∑1AΩ
+€§q?)ıø¢[4?)ãsX∑CPø9VM3Â[ﬁ?I¶k 7	AΩ
+€&`lt?)…3ŸÄ}Ø?)_œO`¡÷ø9+
+P„Ë?Iz(qË∞ÃAΩ
+€7g“?)πZ)˛√ò?)PQi>èﬂø9Õﬁv?IjìônúÕAΩ
+€Gÿc1?)´g¶G¨?)B¿âp§ø9lï˚ ?I\È’P¶fAΩ
+€Xî^è?)¢)'%
+?)9’HW‡Nø9´X˚ΩÔ?ISÍ@Ò|AΩ
+€iPYÓ?)úqÜÿ¥
+?)4NXÊø9 <¿¨ˇ%?INW#¬ŸòAΩ
+€zUL?)õ?˚ÀÎ?)3%W''ø8ˇùú≈,?IM+Ã¥X$AΩ
+€ä»P´?)õ?˚ÀÎ?)3%W''ø8ˇùú≈,?IM+Ã¥X$AΩ
+€õÑL	?)ó‡	hA?)/€U(N¯ø8˚ÿ˚U|?II‹Ç8K∂AΩ
+€¨@Gg?)ó‡	hA?)/€U(N¯ø8˚ÿ˚U|?II‹Ç8K∂AΩ
+€º¸B∆?)ò1d…Áj?)0*|ª˜ø8¸&U÷&=?IJ+›P‘AΩ
+€Õ∏>$?)úqΩ?)3·GDèø8ˇ…2`x?IMÌQ∂öåAΩ
+€ﬁt9É?)ú‚œ…D?)4™ŸR«ø9 è8à?IN∏©ÒtfAΩ
+€Ô04·?)üOëSôû?)7πóƒ†ø9ﬂMπ⁄!?IQoÜπ‡AΩ
+€ˇÏ0@?)¶†pÄ›?)>!è6>ø9	ÿ™ûêÓ?IX<]àÂAΩ
+‹®+û?)≤m ÂSb?)Iç¸°õVø9øO?Ic≈2âXAΩ
+‹!d&˝?)∆ó;‘r<?)]+´¢∫^ø9(u„âﬁn?IwÜèØ(UAΩ
+‹2 "[?)ﬂ*..‡˙?)uAwºu†ø9@MÉ?Û?Ièª•YvAΩ
+‹B‹∫?*˝Æ¢î?)ÆÌø9xúT´æ?I»Ã›{X©AΩ
+‹Sò?*Ç0ÕÎ2Ç?*öc√°\ø9ﬂO.Øÿ…?J0ø˛MÖ¶AΩ
+‹dTv?+	L™^‡÷?*öƒ≈îÌ,ø:cÄ”/ÛW?J∂fæ«jAΩ
+‹u’?+òSº˛Ë´?+'—[Ã}ø:Ôê+2∂f?KCÒÙœâAΩ
+‹ÖÃ3?+ﬂûÜfˆˆ?+n(êW>Çø;5mïObI?KäÜ€,†AΩ
+‹ñàí?+¥ò>?+C[OÜn"ø;´<ôï?K_à!´XjAΩ
+‹ßD?+@C·n˝?*— ÄU->ø:ô^œ»∫^?JÏ—Xõf≠AΩ
+‹∑ˇ˝O?*§â•˛≤?*7nû8åéø: ·U∆˚?JRµ`)ÔVAΩ
+‹»ª¯≠?*5gø∂eq?) URT|ø9îR† L?I‰›/ÎXπAΩ
+‹ŸwÙ?)ÔÚZx?)Ö¬î¢y~ø9P™›FØÄ?I†NpP^|AΩ
+‹Í3Ôj?)«ƒ÷DΩ?)^\⁄ûø9)®&µ•é?Ix∂≈ı%AΩ
+‹˙ÔÍ…?)µ‹p_8e?)LÈŒ¬hø9p}ÛhÍ?Ig&w)PßAΩ
+›´Ê'?)•≈aG®?)=Oﬂ¡B«ø9	@V?IWm@CˇAΩ
+›g·Ö?)†˘ÄÑo?)8≠É)tLø9áÑ{ˆ‰?IR¿ÇÄ3 AΩ
+›-#‹‰?)úb	Ô?)3Ï?é ø8ˇŸ≠§»∏?IMıá÷Ò‘AΩ
+›=ﬂÿB?)ñ`ú'6?).jL#D>ø8˙o$!_¡?IHg‡$6|AΩ
+›Nõ”°?)ñ`ú'6?).jL#D>ø8˙o$!_¡?IHg‡$6|AΩ
+›_WŒˇ?)ñ`ú'6?).jL#D>ø8˙o$!_¡?IHg‡$6|AΩ
+›p ^?)ì2SÄª?)+@[‰˛ø8˜Xp¨Y?IE4QÏÌAΩ
+›Äœ≈º?)ì)ﬂú˙?)+DP`•ø8˜[ˇ¬{?IE8t/∫AΩ
+›ëã¡?)ì)ﬂú˙?)+DP`•ø8˜[ˇ¬{?IE8t/∫AΩ
+›¢Gºy?)íóÌ‰Q4?)*ÕôhE9ø8ˆËo*?<?ID¿.áH8AΩ
+›≥∑◊?)íóÌ‰Q4?)*ÕôhE9ø8ˆËo*?<?ID¿.áH8AΩ
+›√ø≥6?)ïE≈ø?)-CÙÅ≤@ø8˘C„ﬂ?IGDh—AΩ
+›‘{Æî?)ïL¶Dƒ?)-JõI›∆ø8˘IïÃ∆F?IGKiÖAΩ
+›Â7©Û?)ó™Ç)—5?)/é¨"Ö,ø8˚Ä¡ﬂ(?IIï°§X.AΩ
+›ıÛ•Q?)ô`Ôá⁄*?)1.ADïø8˝Í".À?IK:Ï’zAΩ
+ﬁØ†∞?)ùŸ©
+<¿?)5|ç™ºø9Mˇ˙∫?IOì‘Ç$ΩAΩ
+ﬁkú?)ß„Ñ‚T?)?≠Æú`ø9
+ì˚√yf?IY;Ü§-›AΩ
+ﬁ('óm?)©∆gmù?)@€‘™©Aø9fãInî?I[y[FòAΩ
+ﬁ8„íÀ?)¥ƒ®>Ó^?)Kâ &‘ëø9Î\«´?Ieÿ,€AΩ
+ﬁIüé*?)…¢ƒö˚:?)_‘òœπø9*Ï£π˘?IzG≥ŸZöAΩ
+ﬁZ[âà?)‰c'ÌÔ?)z÷)ıø9DÌ≤«¯?Iî®hZÙAΩ
+ﬁkÑÊ?*5¿.ÅØ?)…’®èÊzø9ì‡z¿ò‡?I‰–?wçHAΩ
+ﬁ{”ÄE?*∞ev˙rÑ?*Bá)i‘˛ø:ò°Ü:?J]˛ºÕ¸_AΩ
+ﬁåè{£?+;=w·?*Àp JfMø:ìä73®Í?JÁd’ƒˇAΩ
+ﬁùKw?+»_a”Æ?+VnÂX?˛ø;v—Sv%?KrÍÔZ§ÍAΩ
+ﬁÆr`?+¯U˚!6<?+Ö√Õ±hø;Lz∂n˛?K¢hXñRùAΩ
+ﬁæ√mø?+¡«¨k∏0?+OÏb»fø;˛@ﬁPÄ?Klbˆ•XAΩ
+ﬁœi?+0ï»=>&?*¿ÄXÍˇ7ø:àu°Aﬂø?J‹Ö¥øéÚAΩ
+ﬁ‡;d|?*õÑ∫∞?*-x3µ¬Rø9ˆrF3ö$?JH˚*v÷jAΩ
+ﬁ˜_⁄?*:≠Ä‚Ú?)ŒMè≈Iø9ó¿g6u?IÈ6¿Ã¥AΩ
+ﬂ≥[9?)¸F H¨?)êŸmÆ#Àø9[Å Z?I´¬„ı-AΩ
+ﬂoVó?)‰Ìµ:X?)y™≠$¸.ø9D	‹›?Iî{C…∏AΩ
+ﬂ#+Qı?)›¨nÒf¿?)rîÁ˙‹ ø9=	$ñ†?IçZ…∏~∞AΩ
+ﬂ3ÁMT?)Èõ]#n?)}≤õ85Cø9H%æ-?Iòá€ApŒAΩ
+ﬂD£H≤?*£a€¥û?)ôŒLö+=ø9c„¡˘fç?I¥√ëÍçñAΩ
+ﬂU_D?*4…>≤µ®?)»Bì›¯Æø9ëˇ>sö0?I„d>ì'ÏAΩ
+ﬂf?o?* Kˆ÷≈?*Ã©±2ø9€>çj?J-Ñl|˙óAΩ
+ﬂv◊:Œ?*—ŒT∆O–?*bÁ§/ﬁ∞ø:+tK‰¶ ?J~°PUz¯AΩ
+ﬂáì6,?+{0\;∞?*†£#œ∑Óø:h∑âv?Jºô&ÚÿﬁAΩ
+ﬂòO1ã?+-Æ¶L,Õ?*ΩoMÉìø:ÖO°Üˆ?JŸ#µY·AΩ
+ﬂ©,È?+ox2ÕÙ?*®p,Y¸ø:ppÜmì.?JƒoˇP0ëAΩ
+ﬂπ«(H?*›Ò˛Paπ?*nπ›N-÷ø:7ÃÕ‰?JäáÂé∫ŒAΩ
+ﬂ É#¶?*É-Sö§?*!VPø9ﬁ◊^¶?J0§ï|•AΩ
+ﬂ€??*=f§ºsÌ?)–Ah(∆ø9ôÆ…›Ë2?IÎä∑M.AΩ
+ﬂÎ˚c?*Ê^œ0Á?)©GÆäã2ø9r¯Vh8X?IƒoZõ¥†AΩ
+ﬂ¸∑¡?*t∏µ®?)ïÚ Wø9^Â˛H.?I∞,„Ä˛ÎAΩ
+‡s ?*ﬂLÆ
+“?)ñew>™ﬁø9`(åÜ˙„?I±ÉÏöÇ⁄AΩ
+‡/~?*ä»æ≠¥?)¨òW˚≠hø9vö-B?I«‘Ù,m{AΩ
+‡.Î›?*W6∞¿?)È#O‹£ø9≤&€EjÏ?J°à˚~AΩ
+‡?ß;?*∏÷mN∞ä?*IN‰D5ƒø:ãæ¯a?Je0∆Ü‘vAΩ
+‡Pb˛ö?+*D√N?*∏ˆı;ãCø:ÄPjMo=?J’J:≤ôFAΩ
+‡a˘¯?+¯ﬁ~¿Ãº?+Ñ˜x4øhø;KÙÓ∏æ?K°Ò9◊¬ΩAΩ
+‡q⁄ıV?,r/C%¥ù?+˝ íèäø;¬tH˝?LQ®∑XœAΩ
+‡Çñµ?,r/C%¥ù?+˝ íèäø;¬tH˝?LQ®∑XœAΩ
+‡ìRÏ?,r/C%¥ù?+˝ íèäø;¬tH˝?LQ®∑Xœ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                   40 / width of table in bytes                        NAXIS2  =                    0 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    5 / number of fields in each row                   EXTNAME = 'BKGLIGHTCURVE'      / name of this binary table extension            HDUNAME = 'BKGLIGHTCURVE'      / ASCDM block name                               TTYPE1  = 'Time    '           / label for field                                TFORM1  = '1D      '           / format of field                                TUNIT1  = 's       '                                                            TTYPE2  = 'COUNT_RATE'         / Rate                                           TFORM2  = '1D      '           / format of field                                TUNIT2  = 'count/s '                                                            TTYPE3  = 'COUNT_RATE_ERR'     / Rate Error                                     TFORM3  = '1D      '           / format of field                                TUNIT3  = 'count/s '                                                            TTYPE4  = 'Minus_3Sig'         / Expectation value minus 3 times sigma          TFORM4  = '1D      '           / format of field                                TUNIT4  = 'count/s '                                                            TTYPE5  = 'Plus_3Sig'          / Expectation value plus 3 times sigma           TFORM5  = '1D      '           / format of field                                TUNIT5  = 'count/s '                                                            ORIGIN  = 'ASC     '           / Source of FITS file                            CREATOR = 'glvary - Version CAT4.5' / tool that created this output             ASCDSVER= 'CAT4.5  '           / ASCDS version number                           REVISION=                   21 / Processing version of data                     CHECKSUM= '7hYX8ZVW7fVW7ZVW'   / HDU checksum updated 2019-07-26T01:44:13       DATASUM = '        '           / data unit checksum updated 2017-11-26T18:20:40 RAND_SKY=  0.0000000000000E+00                                                  RAND_PI =  1.0000000000000E+00                                                  DATE    = '2019-07-26T01:43:38' / Date and time of file creation                MJD_OBS =  5.6453421578021E+04 / Modified Julian date of observation            DS_IDENT= 'ADS/Sa.CXO#2CSC/obs/14951' / dataset identifier                      DATE-OBS= '2013-06-10T10:07:04' / Observation start date                        DATE-END= '2013-06-10T12:02:35' / Observation end date                          TIMESYS = 'TT      '           / Time system                                    MJDREF  =  5.0814000000000E+04 / [d] MJD zero point for times                   TIMEZERO=  0.0000000000000E+00 / [s] Clock correction                           TIMEUNIT= 's       '           / Time unit                                      BTIMNULL=  4.8485539467387E+08 / Basic Time offset (s)                          BTIMRATE=  2.5625001389541E-01 / Basic Time clock rate (s / VCDUcount)          BTIMDRFT=  5.5490324107506E-19 / Basic Time clock drift (s / VCDUcount^2)       BTIMCORR=  0.0000000000000E+00 / Correction applied to Basic Time rate (s)      TIMEREF = 'LOCAL   '           / Time reference (barycenter/local)              TASSIGN = 'SATELLITE'          / Time assigned by clock                         CLOCKAPP=                    T / default                                        TIERRELA=  1.0000000000000E-09 / default                                        TIERABSO=  5.0000000000000E-05 / default                                        TIMVERSN= 'ASC-FITS-2'         / Timing system definition                       TSTART  =  4.8724602434102E+08 / [s] Observation start time (MET)               TSTOP   =  4.8725295590390E+08 / [s] Observation end time (MET)                 OBS_MODE= 'POINTING'           / Observation mode                               STARTMJF=                72909 / Major frame ctr value at start of data         STARTMNF=                  125 / Start minor frame ctr at start of data         STARTOBT=  0.0000000000000E+00 / On-Board MET close to STARTMJF and STARTMNF    STOPMJF =                73071 / Major frame ctr value at stop of data          STOPMNF =                   36 / Stop minor frame ctr at end of data            TIMEPIXR=  5.0000000000000E-01 / default                                        DATACLAS= 'OBSERVED'           / default                                        RADESYS = 'ICRS    '           / default                                        TIMEDEL =  1.6734304368496E+01 / [s] integration time                           MISSION = 'AXAF    '           / Mission                                        TELESCOP= 'CHANDRA '           / Telescope                                      SIM_X   = -6.8282252473119E-01 / [mm] SIM focus pos                             SIM_Y   =  0.0000000000000E+00 / [mm] SIM orthogonal axis pos                   SIM_Z   = -1.9014258036517E+02 / [mm] SIM translation stage pos                 FOC_LEN =  1.0070000000000E+04 / [mm] HRMA focal length                         INSTRUME= 'ACIS    '           / Instrument                                     GRATING = 'NONE    '           / Grating                                        DETNAM  = 'ACIS-23678'         / Detector                                       RA_PNT  =  1.2628819933510E+02 / [deg] Pointing RA                              DEC_PNT =  1.1924445061100E+01 / [deg] Pointing Dec                             ROLL_PNT=  2.4972827671276E+02 / [deg] Pointing Roll                            RA_TARG =  1.2628625000000E+02 / [deg] Observer's specified target RA           DEC_TARG=  1.1926750000000E+01 / [deg] Observer's specified target Dec          DEFOCUS =  1.4449365687057E-03 / [mm] SIM defocus                               RA_NOM  =  1.2628819933508E+02 / [deg] Nominal RA                               DEC_NOM =  1.1924445061129E+01 / [deg] Nominal Dec                              ROLL_NOM=  2.4972827671276E+02 / [deg] Nominal Roll                             READMODE= 'TIMED   '           / Read mode                                      CTI_CORR=                    T                                                  CTI_APP = 'PPPPPBPBPP'                                                          DATAMODE= 'VFAINT  '           / Data mode                                      FLSHTIME=  0.0000000000000E+00 / [s]                                            CYCLE   = 'P       '           / events from which exps? Prim/Second/Both       OBJECT  = 'SDSS J0825+1155'    / Source name                                    OBS_ID  = '14951   '           / Observation id                                 OBI_NUM =                    0 / Obi number                                     SEQ_NUM = '702760  '           / Sequence number                                ONTIME  =  5.1708000397682E+03 / [s] Sum of GTIs                                LIVETIME=  5.1032397305610E+03 / [s] Livetime                                   EXPOSURE=  5.1032397305610E+03 / [s] Exposure time                              DTCOR   =  9.8693426381071E-01 / Dead time correction                           ASPTYPE = 'KALMAN  '                                                            FP_TEMP =  1.5344601440000E+02 / [K] Focal Plane Temperature                    DY_AVG  =  1.0715971008000E+00 / [mm] Mean DY during observation                DZ_AVG  =  1.0293759995000E+00 / [mm] Mean DZ during observation                DTH_AVG = -4.1263877798000E-03 / [deg] Mean DTHETA during observation           CONTENT = 'LIGHTCURVE'         / OGIP Lightcurve file                           HDUCLASS= 'OGIP    '           / format conforms to OGIP/GSFC standards         HDUCLAS1= 'LIGHTCURVE'         / Extension contains a lightcurve                HDUCLAS2= 'TOTAL   '           / Total counts                                   HDUCLAS3= 'RATE    '           / Spectrum total counts                          HISTNUM =                   32                                                  HISTORY  TOOL  :glvary   2019-07-26T01:43:38                            ASC00001HISTORY  PARM  :infile=/export/migration_test/batch0/lightcurve/14951_00ASC00002HISTORY  CONT  :0/input/acisf14951_000N020_r0007m_regevt3.fits[@/export/ASC00003HISTORY  CONT  :migration_test/batch0/lightcurve/14951_000/output/acisf1ASC00004HISTORY  CONT  :4951_000N021_r0007m_gti3.fits, sky=region(/export/migratASC00005HISTORY  CONT  :ion_test/batch0/lightcurve/14951_000/input/acisfJ0825091ASC00006HISTORY  CONT  :p115528_001N020_r0007_spbreg3.fits[bkgreg])][subspace -tASC00007HISTORY  CONT  :ime,-ccd_id,-expno]                                     ASC00008HISTORY  PARM  :outfile=/export/migration_test/batch0/lightcurve/14951_0ASC00009HISTORY  CONT  :00/output/acisf14951_000N021_r0007m_prob3.fits.bkg      ASC00010HISTORY  PARM  :lcfile=/export/migration_test/batch0/lightcurve/14951_00ASC00011HISTORY  CONT  :0/output/acisf14951_000N021_r0007m_lc3.fits.bkg         ASC00012HISTORY  PARM  :effile=/export/migration_test/batch0/lightcurve/14951_00ASC00013HISTORY  CONT  :0/output/acisf14951_000N021_r0007_bkg_asoldither3.fits[cASC00014HISTORY  CONT  :ols time,dtf=fracarea]                                  ASC00015HISTORY  PARM  :probfile=/export/migration_test/batch0/lightcurve/14951_ASC00016HISTORY  CONT  :000/output/acisf14951_000N021_r0007m_prob3.fits         ASC00017HISTORY  PARM  :frac=1                                                  ASC00018HISTORY  PARM  :seed=1                                                  ASC00019HISTORY  PARM  :mmax=INDEF                                              ASC00020HISTORY  PARM  :mmin=INDEF                                              ASC00021HISTORY  PARM  :nbin=0                                                  ASC00022HISTORY  PARM  :mintime=50                                              ASC00023HISTORY  PARM  :clobber=yes                                             ASC00024HISTORY  PARM  :verbose=0                                               ASC00025FRAC    =  1.0000000000000E+00 / Random subsample fraction                      SEED    =  1.0000000000000E+00 / Seed for random selection of fraction          TELAPSE =  5.1708000397682E+03 / [s] Time range                                 INTEGTIM=  4.8706367601126E+03 / [s] Total integration time                     TOTCTS  =                    0 / Total number of single events                  EVENTS  =                    0 / Number of events on input                      ODDS    = -3.0986424561348E-01 / Odds for variable signal 10Log                 PROB    =  4.8993194131421E-01 / Probability of variable signal                 MMIN    =                    2 / M minimum value                                MMAX    =                  103 / M maximum value                                FRAC3SIG=  1.0000000000000E+00 / Frac of lc within 3 sigma of avg rate          FRAC5SIG=  1.0000000000000E+00 / Frac of lc within 5 sigma of avg rate          VARINDEX=                    0 / Variability index                              LONGSTRN= 'OGIP 1.0'           / The HEASARC Long String Convention may be used.COMMENT   This FITS file may contain long string keyword values that are        COMMENT   continued over multiple keywords.  The HEASARC convention uses the &  COMMENT   character at the end of each substring which is then continued        COMMENT   on the next keyword which has the name CONTINUE.                      PROBFILE= '/export/migration_test/batch0/lightcurve/14951_000/output/acisf1495&'CONTINUE  '1_000N021_r0007m_prob3.fits' / input probability file for bkg        BACKSCAL=  1.6123056411743E-05 / Ratio of area to field                         APERTURE=  2.6191324800001E+02 / [arcsec**2] Aperture size                      APERUNIT= 'arcsec**2'          / Aperture units                                 REGIONID= '0007    '           / Region id                                      STACK_ID= 'acisfJ0825091p115528_001' / Stack id                                 BAND    = 'medium  '           / Energy band                                    HISTORY  TOOL  :dmappend   2019-07-26T01:43:38                          ASC00026HISTORY  PARM  :infile=/export/migration_test/batch0/lightcurve/14951_00ASC00027HISTORY  CONT  :0/output/acisf14951_000N021_r0007m_lc3.fits.bkg[LIGHTCURASC00028HISTORY  CONT  :VE][BKGLIGHTCURVE]                                      ASC00029HISTORY  PARM  :outfile=/export/migration_test/batch0/lightcurve/14951_0ASC00030HISTORY  CONT  :00/output/acisf14951_000N021_r0007m_lc3.fits            ASC00031HISTORY  PARM  :verbose=0                                               ASC00032END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
