@@ -1,0 +1,4 @@
+June 28, 11:44am
+Rebin the data and fft
+histogram of the countrate
+excess variance and other parameters
