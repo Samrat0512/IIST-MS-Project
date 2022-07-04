@@ -10,4 +10,6 @@ All possible lightcurves for usrid_2 to usrid_6 is downloaded. usrid_3,4,5 don't
 june 23,2022 9:17am
 Lightcurves of different bands for the source usrid_3 is plotted and saved as images. However for ultrasoft band there is only 0 rows. I think there is some problem with the downloading. Need to recheck when possible
 
- 
+For much update look notebook or git log
+
+
